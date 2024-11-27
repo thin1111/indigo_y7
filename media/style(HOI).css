@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Adobe Heiti Std R;
+ 
+}
+ 
+body {
+    background: rgb(31, 34, 60);
+    color: #ededed;
+}
+ 
+ 
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 15%;
+    background: rgb(1, 6, 53);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    position: fixed;
+}
+ 
+.logo{
+    position: fixed;
+    height: auto;
+    left: 0px;
+    width: 100px;
+}
+ 
+.navbar a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+   
+}
+ 
+.navbar a:hover,
+.navbar a.active{
+    color: #1F7ADB;
+}
+.footer{
+    background-color: rgb(6, 6, 90);
+    padding: 75px 0;
+    font-family: "Roboto", sans-serif;
+}
+ 
+.container{
+    max-width: 1175px;
+    margin: auto;
+}
+ 
+ul{
+    list-style: none;
+}
+ 
+ 
+.footer{
+    background-color: rgb(6, 6, 90);
+}
+ 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+.footer-col{
+    width: 25%;
+    padding: 0 17px;
+}
+ 
+.footer-col h4{
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 36px;
+    font-weight: 520;
+    position: relative;
+}
+ 
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #ff0000;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+ 
+.footer-col ul li:not(:last-child){
+margin-bottom: 10px;
+}
+ 
+.footer-col ul li a{
+    font-size: 15px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.2s ease;
+}
+ 
+.footer-col ul li a:hover{
+    color: rgb(255, 0, 0);
+    padding-left: 10px;
+}
+ 
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(40, 15, 231);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.6s ease;
+}
+ 
+.footer-col .social-links a:hover{
+    color: black;
+    background-color: white;
+}
+ 
+ 
+ 
+.copyright{
+    color: white;
+    background-color: rgb(6, 6, 90);
+    text-align: center;
+}
+.content {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.margin-left {
+    margin-left: 10px;
+}
+details {
+    user-select: none;
+  }
+  
+  details>summary span.icon {
+    width: 24px;
+    height: 24px;
+    transition: all 0.3s;
+    margin-left: auto;
+  }
+  
+  details[open] summary span.icon {
+    transform: rotate(180deg);
+  }
+  
+  summary {
+    display: flex;
+    cursor: pointer;
+  }
+  
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  .box1 {
+    width: 280px;
+
+    height: 400px;
+  }
+  .smolbox1 {
+    background-color: darkblue;
+    width: 400px;
+    left: 20px;
+    position: relative;
+
+  }
+.icon {
+    position: relative;
+    right: 20px;
+    color: white;
+}
+.margin-left1 {
+    margin-left: 20px;
+    margin-top: 2px;
+}
+.showarea1 {
+    background-color: blue;
+    margin-left: 20px;
+    width: 400px;
+    transition: 1s;
+}
+.margin-left2 {
+    margin-left: 5px;
+}
+
+.showarea2 {
+    background-color: blue;
+    margin-left: 1100px;
+    width: 400px;
+    transition: 1s;
+}
+  .smolbox2 {
+    background-color: darkblue;
+    width: 400px;
+    left: 1100px;
+    position: relative;
+
+  }
+.box2 {
+    width: 280px;
+
+    height: 200px;
+  }
+#title {
+    background-color: blue;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    height: 30px;
+    margin-top: 10px;
+}
